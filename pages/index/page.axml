@@ -1,0 +1,9 @@
+<view class="container">
+  <view class="blocks">
+    <block a:for="{{state.components}}" a:key="{{index}}">
+      <view class="block-item" style="{{item.property.style}}">
+        <!-- 支付宝小程序动态组件 -->
+      </view>
+    </block>
+  </view>
+</view> 
