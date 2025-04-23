@@ -1,0 +1,64 @@
+{
+  "hash": "7fba725b",
+  "configHash": "657bd113",
+  "lockfileHash": "ef75b518",
+  "browserHash": "9d9537ae",
+  "optimized": {
+    "dayjs": {
+      "src": "../../../../../node_modules/dayjs/dayjs.min.js",
+      "file": "dayjs.js",
+      "fileHash": "156adabb",
+      "needsInterop": true
+    },
+    "dayjs/locale/zh-cn": {
+      "src": "../../../../../node_modules/dayjs/locale/zh-cn.js",
+      "file": "dayjs_locale_zh-cn.js",
+      "fileHash": "366e1b9d",
+      "needsInterop": true
+    },
+    "dayjs/plugin/duration": {
+      "src": "../../../../../node_modules/dayjs/plugin/duration.js",
+      "file": "dayjs_plugin_duration.js",
+      "fileHash": "134e5f62",
+      "needsInterop": true
+    },
+    "dayjs/plugin/relativeTime": {
+      "src": "../../../../../node_modules/dayjs/plugin/relativeTime.js",
+      "file": "dayjs_plugin_relativeTime.js",
+      "fileHash": "0cc64574",
+      "needsInterop": true
+    },
+    "lodash-es": {
+      "src": "../../../../../node_modules/lodash-es/lodash.js",
+      "file": "lodash-es.js",
+      "fileHash": "bd5e40a3",
+      "needsInterop": false
+    },
+    "luch-request": {
+      "src": "../../../../../node_modules/luch-request/src/lib/luch-request.js",
+      "file": "luch-request.js",
+      "fileHash": "dd69b814",
+      "needsInterop": false
+    },
+    "pinia-plugin-persist-uni": {
+      "src": "../../../../../node_modules/pinia-plugin-persist-uni/dist/pinia-persist-uni.es.js",
+      "file": "pinia-plugin-persist-uni.js",
+      "fileHash": "fcbaff68",
+      "needsInterop": false
+    },
+    "weixin-js-sdk": {
+      "src": "../../../../../node_modules/weixin-js-sdk/index.js",
+      "file": "weixin-js-sdk.js",
+      "fileHash": "d53c67bd",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-DWS3ZGKE": {
+      "file": "chunk-DWS3ZGKE.js"
+    },
+    "chunk-Y2F7D3TJ": {
+      "file": "chunk-Y2F7D3TJ.js"
+    }
+  }
+}

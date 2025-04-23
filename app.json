@@ -1,0 +1,67 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/user",
+    "pages/index/category",
+    "pages/index/cart",
+    "pages/index/login",
+    "pages/index/search",
+    "pages/index/page"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/goods",
+      "pages": [
+        "index",
+        "groupon",
+        "seckill",
+        "point",
+        "list",
+        "comment/add",
+        "comment/list"
+      ]
+    },
+    {
+      "root": "pages/order",
+      "pages": [
+        "detail",
+        "confirm",
+        "list",
+        "aftersale/apply"
+      ]
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTitleText": "芋道商城",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index"
+      },
+      {
+        "pagePath": "pages/index/category"
+      },
+      {
+        "pagePath": "pages/index/cart"
+      },
+      {
+        "pagePath": "pages/index/user"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置信息将用于获取附近的商家信息"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json",
+  "requiredPrivateInfos": ["chooseAddress"],
+  "lazyCodeLoading": "requiredComponents"
+} 
